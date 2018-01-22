@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48586" started-at="2018-01-20T15:02:48Z" finished-at="2018-01-20T15:03:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48586" started-at="2018-01-20T15:02:48Z" finished-at="2018-01-20T15:03:37Z">
+      <class name="project_filament.filament_main">
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="19" started-at="2018-01-20T20:32:51Z" data-provider="exceldata" finished-at="2018-01-20T20:32:51Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="2" started-at="2018-01-20T20:32:51Z" finished-at="2018-01-20T20:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="29148" started-at="2018-01-20T20:32:51Z" data-provider="exceldata" finished-at="2018-01-20T20:33:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Open Browser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Open_Browser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[chorm]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[https://demos4.softaculous.com/Joomla/index.php/component/users/?view=reset&Itemid=101]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="0" started-at="2018-01-20T20:33:21Z" finished-at="2018-01-20T20:33:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="13677" started-at="2018-01-20T20:33:21Z" data-provider="exceldata" finished-at="2018-01-20T20:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[verfily links]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[verifylink]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="1" started-at="2018-01-20T20:33:34Z" finished-at="2018-01-20T20:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="961" started-at="2018-01-20T20:33:34Z" data-provider="exceldata" finished-at="2018-01-20T20:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[verfily images]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[verifyimage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="6" started-at="2018-01-20T20:33:35Z" finished-at="2018-01-20T20:33:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="693" started-at="2018-01-20T20:33:35Z" data-provider="exceldata" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[click submit button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id="user-registration"]/div/div/button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="0" started-at="2018-01-20T20:33:36Z" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="149" started-at="2018-01-20T20:33:36Z" data-provider="exceldata" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Match message ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error_containt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id="system-message-container"]/div/div]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Invalid field:  Email Address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="1" started-at="2018-01-20T20:33:36Z" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="119" started-at="2018-01-20T20:33:36Z" data-provider="exceldata" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Send input to email text filed]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sendInput]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jform_email]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gjhgvjhx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="0" started-at="2018-01-20T20:33:36Z" finished-at="2018-01-20T20:33:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003]" name="sho_filament" duration-ms="362" started-at="2018-01-20T20:33:36Z" data-provider="exceldata" finished-at="2018-01-20T20:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[click submit button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@id="user-registration"]/div/div/button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sho_filament -->
+        <test-method status="PASS" signature="takescreenshort(org.testng.ITestResult)[pri:0, instance:project_filament.filament_main@b7f003]" name="takescreenshort" is-config="true" duration-ms="2" started-at="2018-01-20T20:33:37Z" finished-at="2018-01-20T20:33:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sho_filament status=SUCCESS method=filament_main.sho_filament(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:project_filament.filament_main@b7f003] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshort -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:project_filament.filament_main@b7f003]" name="closebrowser" is-config="true" duration-ms="1" started-at="2018-01-20T20:33:37Z" finished-at="2018-01-20T20:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- project_filament.filament_main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
