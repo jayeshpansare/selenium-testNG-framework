@@ -17,9 +17,17 @@ public class setInput {
 			WebElement getInputByName = driver.findElement(By.name(veriable));
 			getInputByName.sendKeys(value);
 			break;
-		case "Id":
+		case "id":
 			WebElement getInputById = driver.findElement(By.id(veriable));
 			getInputById.sendKeys(value);
+			break;
+		case "cssName":
+			WebElement getInputByCssName = driver.findElement(By.className(veriable));
+			getInputByCssName.sendKeys(value);
+			break;
+		case "xpath":
+			WebElement getInputByXpath = driver.findElement(By.xpath(veriable));
+			getInputByXpath.sendKeys(value);
 			break;
 		default:
 		    break;
@@ -35,6 +43,15 @@ public class setInput {
 		switch(identifier){
 		case "xpath":
 			driver.findElement(By.xpath(veriable)).click();
+			break;
+		case "link":
+			driver.findElement(By.linkText(veriable)).click();
+			break;
+		case "id":
+			driver.findElement(By.id(veriable)).click();
+			break;
+		case "textlink":
+			driver.findElement(By.linkText(veriable)).click();
 			break;
 		default:
 			break;

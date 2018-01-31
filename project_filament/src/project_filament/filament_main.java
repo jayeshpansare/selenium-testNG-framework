@@ -22,6 +22,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.SendKeysAction;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -45,7 +46,7 @@ public class filament_main {
 				driver = new ChromeDriver();
 				driver.get(value);
 				WriteExcel writexe = new WriteExcel();
-				writexe.writeFunction(rowNo, "Yes");				
+				writexe.writeFunction(rowNo, "Pass");				
 				break;
 			case "verifylink":
 				List<WebElement> links = driver.findElements(By.tagName("a"));
@@ -83,7 +84,7 @@ public class filament_main {
 				getInput.setInputs(identifier, veriable, value, driver);
 				
 				WriteExcel writexeInput = new WriteExcel();
-				writexeInput.writeFunction(rowNo, "Yes");
+				writexeInput.writeFunction(rowNo, "Pass");
 				
 				break;
 			case "click":
@@ -91,7 +92,7 @@ public class filament_main {
 				clickBtn.clickOnBtn(identifier, veriable, driver);
 				
 				WriteExcel writexeclick = new WriteExcel();
-				writexeclick.writeFunction(rowNo, "Yes");
+				writexeclick.writeFunction(rowNo, "Pass");
 				
 				break;
 			case "wait":
@@ -99,7 +100,7 @@ public class filament_main {
 				getTime.threadWait(identifier, value, driver);
 				
 				WriteExcel writexewait = new WriteExcel();
-				writexewait.writeFunction(rowNo, "Yes");
+				writexewait.writeFunction(rowNo, "Pass");
 				
 				break;
 			case "error_equal":
@@ -108,7 +109,7 @@ public class filament_main {
 				ErrorCheckmsg.error_equal(identifier, veriable, value, rowNo, driver);
 				
 				WriteExcel writexeeq = new WriteExcel();
-				writexeeq.writeFunction(rowNo, "Yes");
+				writexeeq.writeFunction(rowNo, "Pass");
 				
 				break;
 			case "error_containt":
@@ -116,6 +117,25 @@ public class filament_main {
 				ErrorCheckms.error_containt(identifier, veriable, value, rowNo, driver);
 				
 				break;
+			case "pageTitle":
+					String get_title = driver.getTitle();
+					WriteExcel writexepagetitle = new WriteExcel();
+					
+					try{
+						Assert.assertEquals(value, get_title);
+						writexepagetitle.writeFunction(rowNo, "pass");
+					}catch(Exception e){
+						System.out.println("Page title is not match: page title is "+get_title+", Actual page title is:"+value);
+						writexepagetitle.writeFunction(rowNo, "Fail");
+					}
+				break;
+			case "select":
+				SelectDropdown SelectDropdowns= new SelectDropdown(identifier, veriable, value, rowNo,driver);
+				
+				WriteExcel writeexselect = new WriteExcel();
+				writeexselect.writeFunction(rowNo, "Pass");
+				
+				  break;
 			default:
 				break;
 				
@@ -126,15 +146,15 @@ public class filament_main {
 	@DataProvider(name="exceldata")
 	public Object[][] passdata(){
 		Exceldata getExcelFile = new Exceldata("C:\\Users\\jayesh\\workspace4\\project_filament\\IP_excelfile\\joomla_excel.xlsx");
-		int lastRowCount = getExcelFile.getTotalRow(2);
+		int lastRowCount = getExcelFile.getTotalRow(3);
 		Object[][] data = new Object[lastRowCount][6];
 		for(int i=1; i<lastRowCount;i++){
-			data[i][0] = getExcelFile.getData(2, i, 0);
-			data[i][1] = getExcelFile.getData(2, i, 2);
-			data[i][2] = getExcelFile.getData(2, i, 3);
-			data[i][3] = getExcelFile.getData(2, i, 4);
-			data[i][4] = getExcelFile.getData(2, i, 5);
-			data[i][5] = getExcelFile.getData(2, i, 6);
+			data[i][0] = getExcelFile.getData(3, i, 0);
+			data[i][1] = getExcelFile.getData(3, i, 2);
+			data[i][2] = getExcelFile.getData(3, i, 3);
+			data[i][3] = getExcelFile.getData(3, i, 4);
+			data[i][4] = getExcelFile.getData(3, i, 5);
+			data[i][5] = getExcelFile.getData(3, i, 6);
 		}
 	
 		return data;
